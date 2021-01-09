@@ -1,0 +1,39 @@
+.time{
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.events {
+    width: 100%;
+    border-top: 2px solid gray;
+
+}
+
+.future{
+    background-color: green;
+}
+
+.past{
+    background-color: grey;
+}
+
+.current{
+    background-color: yellow;
+}
+
+
+#top-container{
+ height: 250px;
+ width: 100%;
+ text-align: center;
+}
+
+#top-container h1{
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+
+
