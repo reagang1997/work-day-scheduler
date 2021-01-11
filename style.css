@@ -1,3 +1,12 @@
+button{
+    background-color:rgb(131, 205, 235);
+}
+
+input{
+    height: 80px;
+    width: 1000px;
+}
+
 .time{
     border-top: 2px solid gray;
     border-right: 2px solid gray;
@@ -6,20 +15,25 @@
 }
 
 .events {
-    width: 100%;
+    
     border-top: 2px solid gray;
 
 }
 
-.future{
+.events:hover{
+    border: 2px solid lightskyblue;
+    box-shadow: lightskyblue 5px;
+}
+
+#future{
     background-color: green;
 }
 
-.past{
-    background-color: grey;
+#past{
+    background-color: lightgrey;
 }
 
-.current{
+#current{
     background-color: yellow;
 }
 
